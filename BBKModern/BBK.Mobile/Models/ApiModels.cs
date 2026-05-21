@@ -37,3 +37,5 @@ public sealed record ReprintLabelRequest(
     decimal Weight,
     string PrinterName,
     string RecipeCode);
+
+public sealed record FinishRequest(string RecipeCode, string MesId, string MachineNo);

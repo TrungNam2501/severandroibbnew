@@ -19,3 +19,5 @@ public sealed record PrintLabelResponse(string Barcode, string BatchNo);
 public sealed record ReprintLabelRequest(string UserName, string MachineNo, string Barcode, string MesId, decimal Weight, string PrinterName, string RecipeCode);
 
 public sealed record CompensatePrintRequest(string RecipeCode, string MachineNo, string PrinterName, string ShiftId, string EmployeeNo, string ReworkFlag, decimal Weight, string MesId, string PalletNo, string ProductionDate, string PrintDate, string PrintTime, bool IsOem);
+
+public sealed record FinishRequest(string RecipeCode, string MesId, string MachineNo);

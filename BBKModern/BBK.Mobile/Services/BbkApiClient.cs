@@ -23,6 +23,12 @@ public sealed class BbkApiClient(HttpClient httpClient) : IBbkApiClient
             ?? new ApiResult<IReadOnlyList<MesDto>>(false, "Không đọc được danh sách MES", null);
     }
 
+    public async Task<ApiResult<IReadOnlyList<MesDto>>> GetMesForReprintAsync(string machineNo)
+    {
+        return await httpClient.GetFromJsonAsync<ApiResult<IReadOnlyList<MesDto>>>($"/api/production/mes/reprint?machineNo={Uri.EscapeDataString(machineNo)}")
+            ?? new ApiResult<IReadOnlyList<MesDto>>(false, "Không đọc được danh sách MES", null);
+    }
+
     public async Task<ApiResult<IReadOnlyList<PrinterDto>>> GetPrintersAsync()
     {
         return await httpClient.GetFromJsonAsync<ApiResult<IReadOnlyList<PrinterDto>>>("/api/production/printers")
@@ -45,6 +51,12 @@ public sealed class BbkApiClient(HttpClient httpClient) : IBbkApiClient
     public async Task<ApiResult<object>> ReprintLabelAsync(ReprintLabelRequest request)
     {
         var response = await httpClient.PostAsJsonAsync("/api/production/labels/reprint", request);
+        return await ReadResultAsync<object>(response);
+    }
+
+    public async Task<ApiResult<object>> FinishAsync(FinishRequest request)
+    {
+        var response = await httpClient.PostAsJsonAsync("/api/production/finish", request);
         return await ReadResultAsync<object>(response);
     }
 

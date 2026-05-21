@@ -21,4 +21,6 @@ public interface IBbkService
     Task<ApiResult<PrintLabelResponse>> CompensatePrintLabelAsync(CompensatePrintRequest request, CancellationToken cancellationToken);
 
     Task<ApiResult<object>> ReprintLabelAsync(ReprintLabelRequest request, CancellationToken cancellationToken);
+
+    Task<ApiResult<object>> FinishAsync(FinishRequest request, CancellationToken cancellationToken);
 }

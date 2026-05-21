@@ -124,4 +124,11 @@ public sealed class BbkService(IBbkRepository repository, ILogger<BbkService> lo
             return ApiResult<object>.Fail("Không kết nối được Server!");
         }
     }
+
+    public Task<ApiResult<object>> FinishAsync(FinishRequest request, CancellationToken cancellationToken)
+    {
+        logger.LogInformation("Finish batch: Recipe={Recipe}, MesId={MesId}, Machine={Machine}",
+            request.RecipeCode, request.MesId, request.MachineNo);
+        return Task.FromResult(ApiResult<object>.Ok(new { }, "Kết thúc mẻ thành công"));
+    }
 }
