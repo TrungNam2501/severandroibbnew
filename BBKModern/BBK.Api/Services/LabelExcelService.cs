@@ -170,5 +170,27 @@ public sealed class LabelExcelService(IWebHostEnvironment environment) : ILabelE
         worksheet.PrinterSettings.RightMargin = 0.5m;
         worksheet.PrinterSettings.PaperSize = ePaperSize.A5;
         worksheet.PrinterSettings.Orientation = eOrientation.Landscape;
+
+
+        //// ---- CẤU HÌNH SANG KHỔ A4 VÀ LÀM TRÒN VÙNG IN ----
+
+        //// 1. Đổi khổ giấy sang A4
+        //worksheet.PrinterSettings.PaperSize = ePaperSize.A4;
+        //worksheet.PrinterSettings.Orientation = eOrientation.Landscape; // Giữ nguyên hướng ngang (hoặc eOrientation.Portrait nếu muốn dọc)
+
+        //// 2. Thiết lập lề chuẩn cho khổ A4 (Đơn vị tính bằng inch)
+        //worksheet.PrinterSettings.TopMargin = 0.4m;
+        //worksheet.PrinterSettings.BottomMargin = 0.4m;
+        //worksheet.PrinterSettings.LeftMargin = 0.4m;
+        //worksheet.PrinterSettings.RightMargin = 0.4m;
+
+        //// 3. ÉP EXCEL FIT VỪA KHÍT 1 TRANG A4 (Chống lỗi in ra giấy trắng cực kỳ hiệu quả)
+        //worksheet.PrinterSettings.FitToPage = true;
+        //worksheet.PrinterSettings.FitToWidth = 1;  // Ép chiều ngang vừa đúng 1 trang
+        //worksheet.PrinterSettings.FitToHeight = 1; // Ép chiều dọc vừa đúng 1 trang
+
+        //// 4. Định nghĩa rõ ràng vùng in (Chỉ in từ cột B đến cột P, từ dòng 2 đến dòng 22)
+        //// Việc này giúp máy in bỏ qua các ô trống rác xung quanh, không sợ bị xả giấy trắng
+        //worksheet.PrinterSettings.PrintArea = worksheet.Cells["B2:P22"];
     }
 }

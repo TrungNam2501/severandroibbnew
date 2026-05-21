@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AILAM\\BBKModern\\BBK.Api\\BBK.Api.csproj": {}
+    "E:\\severandroibbnew\\BBKModern\\BBK.Api\\BBK.Api.csproj": {}
   },
   "projects": {
-    "E:\\AILAM\\BBKModern\\BBK.Api\\BBK.Api.csproj": {
+    "E:\\severandroibbnew\\BBKModern\\BBK.Api\\BBK.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AILAM\\BBKModern\\BBK.Api\\BBK.Api.csproj",
+        "projectUniqueName": "E:\\severandroibbnew\\BBKModern\\BBK.Api\\BBK.Api.csproj",
         "projectName": "BBK.Api",
-        "projectPath": "E:\\AILAM\\BBKModern\\BBK.Api\\BBK.Api.csproj",
+        "projectPath": "E:\\severandroibbnew\\BBKModern\\BBK.Api\\BBK.Api.csproj",
         "packagesPath": "C:\\Users\\tnamit\\.nuget\\packages\\",
-        "outputPath": "E:\\AILAM\\BBKModern\\BBK.Api\\obj\\",
+        "outputPath": "E:\\severandroibbnew\\BBKModern\\BBK.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,6 +62,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.1.1, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.14.14, )"
             }
           },
           "imports": [

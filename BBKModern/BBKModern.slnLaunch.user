@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BBK.Api\\BBK.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BBK.Mobile\\BBK.Mobile.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

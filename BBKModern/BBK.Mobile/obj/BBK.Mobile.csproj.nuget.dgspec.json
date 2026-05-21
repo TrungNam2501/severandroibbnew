@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AILAM\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj": {}
+    "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj": {}
   },
   "projects": {
-    "E:\\AILAM\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj": {
+    "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AILAM\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
+        "projectUniqueName": "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
         "projectName": "BBK.Mobile",
-        "projectPath": "E:\\AILAM\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
+        "projectPath": "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
         "packagesPath": "C:\\Users\\tnamit\\.nuget\\packages\\",
-        "outputPath": "E:\\AILAM\\BBKModern\\BBK.Mobile\\obj\\",
+        "outputPath": "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

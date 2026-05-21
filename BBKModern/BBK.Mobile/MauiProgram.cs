@@ -18,7 +18,7 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton(sp => new HttpClient
 		{
-			BaseAddress = new Uri("https://localhost:7132")
+			BaseAddress = new Uri("https://localhost:7049")
 		});
 		builder.Services.AddSingleton<IBbkApiClient, BbkApiClient>();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "teDG3EaZOHY=",
+  "dgSpecHash": "i4GWdhPVxd8=",
   "success": true,
-  "projectFilePath": "E:\\AILAM\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
+  "projectFilePath": "E:\\severandroibbnew\\BBKModern\\BBK.Mobile\\BBK.Mobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnamit\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",

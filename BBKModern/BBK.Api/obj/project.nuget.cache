@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XsdeN5rBQpc=",
+  "dgSpecHash": "84VInTCxgCo=",
   "success": true,
-  "projectFilePath": "E:\\AILAM\\BBKModern\\BBK.Api\\BBK.Api.csproj",
+  "projectFilePath": "E:\\severandroibbnew\\BBKModern\\BBK.Api\\BBK.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnamit\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -26,6 +26,7 @@
     "C:\\Users\\tnamit\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\tnamit\\.nuget\\packages\\scalar.aspnetcore\\2.14.14\\scalar.aspnetcore.2.14.14.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\tnamit\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
