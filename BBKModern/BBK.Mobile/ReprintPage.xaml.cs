@@ -6,6 +6,8 @@ namespace BBK.Mobile;
 public partial class ReprintPage : ContentPage
 {
     private readonly IBbkApiClient apiClient;
+    private List<MesDto>? mesList;
+    private List<BarcodeDto>? barcodeList;
 
     public ReprintPage()
     {
@@ -30,14 +32,62 @@ public partial class ReprintPage : ContentPage
         try
         {
             SetLoading(true);
-            var mesResult = await apiClient.GetMesAsync(Session.Current.MachineNo);
+            var mesResult = await apiClient.GetMesForReprintAsync(Session.Current.MachineNo);
             var printerResult = await apiClient.GetPrintersAsync();
-            MesPicker.ItemsSource = mesResult.Data?.ToList();
+
+            if (mesResult.Data is not null && mesResult.Data.Count > 0)
+            {
+                mesList = mesResult.Data.ToList();
+                var mesDisplayItems = mesList.Select(m => $"{m.PlanId} - {m.RecipeCode}").ToList();
+                MesPicker.ItemsSource = mesDisplayItems;
+            }
+            else
+            {
+                mesList = null;
+                MesPicker.ItemsSource = null;
+            }
+
             PrinterPicker.ItemsSource = printerResult.Data?.ToList();
         }
-        catch (Exception ex)
+        catch
         {
-            MessageLabel.Text = ex.Message;
+            MessageLabel.TextColor = Colors.Red;
+            MessageLabel.Text = "Không kết nối được Server!";
+        }
+        finally
+        {
+            SetLoading(false);
+        }
+    }
+
+    private async void OnMesSelected(object? sender, EventArgs e)
+    {
+        if (Session.Current is null || MesPicker.SelectedIndex < 0 || mesList is null) return;
+
+        var selectedMes = mesList[MesPicker.SelectedIndex];
+        RecipeEntry.Text = selectedMes.RecipeCode.Trim();
+
+        try
+        {
+            SetLoading(true);
+            var barcodeResult = await apiClient.GetBarcodesAsync(selectedMes.PlanId, Session.Current.MachineNo);
+            if (barcodeResult.Data is not null && barcodeResult.Data.Count > 0)
+            {
+                barcodeList = barcodeResult.Data.ToList();
+                var barcodeDisplayItems = barcodeList.Select(b => $"{b.Barcode} - {b.Weight}").ToList();
+                BarcodePicker.ItemsSource = barcodeDisplayItems;
+            }
+            else
+            {
+                barcodeList = null;
+                BarcodePicker.ItemsSource = null;
+                await DisplayAlert("Thông Báo", "Không có mã tem của MES này", "OK");
+            }
+        }
+        catch
+        {
+            MessageLabel.TextColor = Colors.Red;
+            MessageLabel.Text = "Lỗi tải barcode!";
         }
         finally
         {
@@ -47,18 +97,29 @@ public partial class ReprintPage : ContentPage
 
     private async void OnReprintClicked(object? sender, EventArgs e)
     {
-        if (Session.Current is null)
+        if (Session.Current is null) return;
+
+        if (MesPicker.SelectedIndex < 0 || mesList is null)
         {
+            await DisplayAlert("Thông Báo", "Vui lòng chọn MES", "OK");
             return;
         }
 
-        var mes = MesPicker.SelectedItem as MesDto;
-        var printer = PrinterPicker.SelectedItem as PrinterDto;
-        if (mes is null || printer is null || !decimal.TryParse(WeightEntry.Text, out var weight))
+        if (BarcodePicker.SelectedIndex < 0 || barcodeList is null)
         {
-            MessageLabel.Text = "Vui lòng nhập đủ thông tin";
+            await DisplayAlert("Thông Báo", "Vui lòng chọn mã tem", "OK");
             return;
         }
+
+        var printer = PrinterPicker.SelectedItem as PrinterDto;
+        if (printer is null)
+        {
+            await DisplayAlert("Thông Báo", "Vui lòng chọn máy in", "OK");
+            return;
+        }
+
+        var selectedMes = mesList[MesPicker.SelectedIndex];
+        var selectedBarcode = barcodeList[BarcodePicker.SelectedIndex];
 
         try
         {
@@ -66,25 +127,35 @@ public partial class ReprintPage : ContentPage
             var request = new ReprintLabelRequest(
                 Session.Current.Name,
                 Session.Current.MachineNo,
-                BarcodeEntry.Text?.Trim() ?? "",
-                mes.PlanId,
-                weight,
-                printer.Code,
-                string.IsNullOrWhiteSpace(RecipeEntry.Text) ? mes.RecipeCode : RecipeEntry.Text.Trim());
+                selectedBarcode.Barcode,
+                selectedMes.PlanId,
+                selectedBarcode.Weight,
+                printer.Name,
+                RecipeEntry.Text?.Trim() ?? selectedMes.RecipeCode);
 
             var result = await apiClient.ReprintLabelAsync(request);
-            MessageLabel.TextColor = result.Success ? Colors.Green : Colors.Red;
-            MessageLabel.Text = result.Message;
+            if (result.Success)
+            {
+                await DisplayAlert("Thông Báo", "In lại tem thành công!", "OK");
+            }
+            else
+            {
+                await DisplayAlert("Thông Báo", result.Message ?? "Lỗi không in lại tem được!", "OK");
+            }
         }
-        catch (Exception ex)
+        catch
         {
-            MessageLabel.TextColor = Colors.Red;
-            MessageLabel.Text = ex.Message;
+            await DisplayAlert("Thông Báo", "Không kết nối được Server!", "OK");
         }
         finally
         {
             SetLoading(false);
         }
+    }
+
+    private async void OnBackClicked(object? sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("..");
     }
 
     private void SetLoading(bool isLoading)

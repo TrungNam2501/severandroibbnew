@@ -55,4 +55,10 @@ public sealed class ProductionController(IBbkService service) : ControllerBase
     {
         return await service.ReprintLabelAsync(request, cancellationToken);
     }
+
+    [HttpPost("finish")]
+    public async Task<ActionResult<ApiResult<object>>> Finish(FinishRequest request, CancellationToken cancellationToken)
+    {
+        return await service.FinishAsync(request, cancellationToken);
+    }
 }

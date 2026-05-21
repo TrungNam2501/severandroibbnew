@@ -10,6 +10,8 @@ public interface IBbkApiClient
 
     Task<ApiResult<IReadOnlyList<MesDto>>> GetMesAsync(string machineNo);
 
+    Task<ApiResult<IReadOnlyList<MesDto>>> GetMesForReprintAsync(string machineNo);
+
     Task<ApiResult<IReadOnlyList<PrinterDto>>> GetPrintersAsync();
 
     Task<ApiResult<IReadOnlyList<BarcodeDto>>> GetBarcodesAsync(string mesId, string machineNo);
@@ -17,4 +19,6 @@ public interface IBbkApiClient
     Task<ApiResult<PrintLabelResponse>> PrintLabelAsync(PrintLabelRequest request);
 
     Task<ApiResult<object>> ReprintLabelAsync(ReprintLabelRequest request);
+
+    Task<ApiResult<object>> FinishAsync(FinishRequest request);
 }

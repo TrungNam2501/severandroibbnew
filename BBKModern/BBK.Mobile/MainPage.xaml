@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BBK.Mobile.MainPage"
@@ -6,28 +6,39 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="24" Spacing="18">
-            <Label Text="In Tem BB KV2"
+            <Label Text="-- LOGIN BB --"
                    FontSize="28"
                    FontAttributes="Bold"
                    HorizontalOptions="Center" />
-            <Label Text="Hệ thống mới"
-                   FontSize="16"
-                   HorizontalOptions="Center" />
-            <Picker x:Name="MachinePicker"
-                    Title="Chọn máy"
-                    ItemDisplayBinding="{Binding Name}" />
+            <Label Text="Nhập số thẻ"
+                   FontSize="20"
+                   FontAttributes="Bold" />
             <Entry x:Name="EmployeeEntry"
                    Placeholder="Mã số thẻ"
                    Keyboard="Numeric"
-                   MaxLength="6" />
-            <Button Text="Đăng nhập"
-                    Clicked="OnLoginClicked" />
+                   MaxLength="6"
+                   TextChanged="OnEmployeeTextChanged" />
+            <Label Text="Chọn máy"
+                   FontSize="20"
+                   FontAttributes="Bold" />
+            <Picker x:Name="MachinePicker"
+                    Title="Chọn máy"
+                    ItemDisplayBinding="{Binding Name}" />
             <ActivityIndicator x:Name="LoadingIndicator"
                                IsVisible="False"
                                IsRunning="False" />
             <Label x:Name="MessageLabel"
-                   TextColor="Red"
+                   FontSize="20"
+                   FontAttributes="Bold"
                    HorizontalOptions="Center" />
+            <Button Text="Đăng Nhập"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    Clicked="OnLoginClicked" />
+            <Button Text="Thoát"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    Clicked="OnExitClicked" />
         </VerticalStackLayout>
     </ScrollView>
 
