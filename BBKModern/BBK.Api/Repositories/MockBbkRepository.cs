@@ -22,6 +22,12 @@ public sealed class MockBbkRepository : IBbkRepository
         return Task.FromResult(mes);
     }
 
+    public Task<IReadOnlyList<MesResponse>> GetMesListForReprintAsync(string machineNo, CancellationToken cancellationToken)
+    {
+        IReadOnlyList<MesResponse> mes = new[] { new MesResponse("MES-DEMO-001", "R1001-9"), new MesResponse("MES-DEMO-002", "R1002-RM"), new MesResponse("VMES-DEMO-003", "R1003-1") };
+        return Task.FromResult(mes);
+    }
+
     public Task<IReadOnlyList<PrinterResponse>> GetPrintersAsync(CancellationToken cancellationToken)
     {
         IReadOnlyList<PrinterResponse> printers = new[] { new PrinterResponse("BB-PRN-01", "BB-PRN-01"), new PrinterResponse("BB-PRN-02", "BB-PRN-02") };
@@ -35,6 +41,12 @@ public sealed class MockBbkRepository : IBbkRepository
     }
 
     public Task<PrintLabelResponse> PrintLabelAsync(PrintLabelRequest request, CancellationToken cancellationToken)
+    {
+        var barcode = $"RD{DateTime.Now:yyMMdd}{Random.Shared.Next(1, 999):000}";
+        return Task.FromResult(new PrintLabelResponse(barcode, "1"));
+    }
+
+    public Task<PrintLabelResponse> CompensatePrintLabelAsync(CompensatePrintRequest request, CancellationToken cancellationToken)
     {
         var barcode = $"RD{DateTime.Now:yyMMdd}{Random.Shared.Next(1, 999):000}";
         return Task.FromResult(new PrintLabelResponse(barcode, "1"));

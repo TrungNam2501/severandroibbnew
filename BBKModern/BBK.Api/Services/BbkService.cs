@@ -31,6 +31,16 @@ public sealed class BbkService(IBbkRepository repository, ILogger<BbkService> lo
         return ApiResult<IReadOnlyList<MesResponse>>.Ok(await repository.GetMesListAsync(machineNo.Trim(), cancellationToken));
     }
 
+    public async Task<ApiResult<IReadOnlyList<MesResponse>>> GetMesListForReprintAsync(string machineNo, CancellationToken cancellationToken)
+    {
+        if (string.IsNullOrWhiteSpace(machineNo))
+        {
+            return ApiResult<IReadOnlyList<MesResponse>>.Fail("Chưa chọn máy");
+        }
+
+        return ApiResult<IReadOnlyList<MesResponse>>.Ok(await repository.GetMesListForReprintAsync(machineNo.Trim(), cancellationToken));
+    }
+
     public async Task<ApiResult<IReadOnlyList<PrinterResponse>>> GetPrintersAsync(CancellationToken cancellationToken)
     {
         return ApiResult<IReadOnlyList<PrinterResponse>>.Ok(await repository.GetPrintersAsync(cancellationToken));
@@ -45,12 +55,12 @@ public sealed class BbkService(IBbkRepository repository, ILogger<BbkService> lo
     {
         if (request.Weight < 30)
         {
-            return ApiResult<PrintLabelResponse>.Fail("Lỗi! Trọng lượng không phù hợp");
+            return ApiResult<PrintLabelResponse>.Fail("Lỗi! Trọng lượng không phù hợp!");
         }
 
         if (string.IsNullOrWhiteSpace(request.PalletNo) || request.PalletNo.Trim().Length < 6)
         {
-            return ApiResult<PrintLabelResponse>.Fail("Pallet không đủ ký tự");
+            return ApiResult<PrintLabelResponse>.Fail("Pallet không đủ ký tự, nhập lại!!!");
         }
 
         try
@@ -65,6 +75,34 @@ public sealed class BbkService(IBbkRepository repository, ILogger<BbkService> lo
         catch (Exception ex)
         {
             logger.LogError(ex, "Print label failed");
+            return ApiResult<PrintLabelResponse>.Fail("Không kết nối được Server!");
+        }
+    }
+
+    public async Task<ApiResult<PrintLabelResponse>> CompensatePrintLabelAsync(CompensatePrintRequest request, CancellationToken cancellationToken)
+    {
+        if (request.Weight < 30)
+        {
+            return ApiResult<PrintLabelResponse>.Fail("Lỗi! Trọng lượng không phù hợp!");
+        }
+
+        if (string.IsNullOrWhiteSpace(request.PalletNo) || request.PalletNo.Trim().Length < 6)
+        {
+            return ApiResult<PrintLabelResponse>.Fail("Pallet không đủ ký tự, nhập lại!!!");
+        }
+
+        try
+        {
+            var result = await repository.CompensatePrintLabelAsync(request, cancellationToken);
+            return ApiResult<PrintLabelResponse>.Ok(result, "In tem bù thành công");
+        }
+        catch (InvalidOperationException ex)
+        {
+            return ApiResult<PrintLabelResponse>.Fail(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "Compensate print label failed");
             return ApiResult<PrintLabelResponse>.Fail("Không kết nối được Server!");
         }
     }
