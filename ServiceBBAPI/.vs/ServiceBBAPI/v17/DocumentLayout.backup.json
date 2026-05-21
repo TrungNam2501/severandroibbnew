@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|d:\\kendaprogram\\bb\\bbkv2\\service and apk  bb api m\u1EDBi\\servicebbapi\\servicebbapi\\servicebbintem.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\servicebbintem.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\models\\get_excel_inlaibb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\models\\get_excel_inlaibb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\printexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\printexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\sqlcnn\\sql10_33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\sqlcnn\\sql10_33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\models\\get_excel_bb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\models\\get_excel_bb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1431,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQL10_33.cs",
+              "DocumentMoniker": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "ToolTip": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "RelativeToolTip": "ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwGwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:13:30.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Get_Excel_InlaiBB.cs",
+              "DocumentMoniker": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "ToolTip": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "RelativeToolTip": "ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T02:09:19.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Get_Excel_BB.cs",
+              "DocumentMoniker": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "ToolTip": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "RelativeToolTip": "ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:01:33.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintExcel.cs",
+              "DocumentMoniker": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\PrintExcel.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\PrintExcel.cs",
+              "ToolTip": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\PrintExcel.cs",
+              "RelativeToolTip": "ServiceBBAPI\\PrintExcel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:25:28.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceBBintem.asmx.cs",
+              "DocumentMoniker": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "ToolTip": "D:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "RelativeToolTip": "ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T03:57:39.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

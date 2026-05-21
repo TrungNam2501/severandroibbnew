@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BBK.Mobile.MenuPage"
+             Title="Chức năng">
+    <VerticalStackLayout Padding="24" Spacing="18">
+        <Label x:Name="UserLabel"
+               FontSize="20"
+               FontAttributes="Bold" />
+        <Button Text="Quét in tem"
+                Clicked="OnScanClicked" />
+        <Button Text="In lại tem"
+                Clicked="OnReprintClicked" />
+        <Button Text="Đăng xuất"
+                Clicked="OnLogoutClicked" />
+    </VerticalStackLayout>
+</ContentPage>

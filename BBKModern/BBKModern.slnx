@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BBK.Api/BBK.Api.csproj" />
+  <Project Path="BBK.Mobile/BBK.Mobile.csproj" />
+</Solution>

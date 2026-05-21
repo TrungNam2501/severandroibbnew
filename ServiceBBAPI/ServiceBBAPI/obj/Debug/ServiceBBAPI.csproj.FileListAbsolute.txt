@@ -1,0 +1,370 @@
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll.config
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.pdb
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe.config
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.rsp
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe.config
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.rsp
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.AppContext.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Console.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe.config
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.rsp
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.AssemblyReference.cache
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CoreCompileInputs.cache
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CopyComplete
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.pdb
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.Interfaces.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.System.Drawing.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.ComponentModel.Annotations.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.xml
+C:\Users\B2210-TrNam\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll.config
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.pdb
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe.config
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.rsp
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe.config
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.rsp
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.AppContext.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Console.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe.config
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.rsp
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.Interfaces.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.System.Drawing.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.ComponentModel.Annotations.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.AssemblyReference.cache
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CoreCompileInputs.cache
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceB.BC3C65CA.Up2Date
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.dll
+C:\Users\tnamit\Desktop\Chương trình bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.pdb
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll.config
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.pdb
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe.config
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.rsp
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe.config
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.rsp
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.AppContext.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Console.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe.config
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.rsp
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.Interfaces.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.System.Drawing.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.ComponentModel.Annotations.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.AssemblyReference.cache
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CoreCompileInputs.cache
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceB.BC3C65CA.Up2Date
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.dll
+C:\Users\tnamit\Desktop\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.pdb
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll.config
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.pdb
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe.config
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.rsp
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe.config
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.rsp
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.AppContext.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Console.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Globalization.Calendars.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Http.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Sockets.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.ValueTuple.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe.config
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.rsp
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.Interfaces.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.System.Drawing.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.ComponentModel.Annotations.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.AssemblyReference.cache
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CoreCompileInputs.cache
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceB.BC3C65CA.Up2Date
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.dll
+D:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.pdb
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll.config
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\ServiceBBAPI.pdb
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.exe.config
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csc.rsp
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.exe.config
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\csi.rsp
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.AppContext.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Console.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Globalization.Calendars.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Http.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Net.Sockets.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.ValueTuple.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.exe.config
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\vbc.rsp
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.Interfaces.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.System.Drawing.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.ComponentModel.Annotations.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\EPPlus.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.IO.RecyclableMemoryStream.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Buffers.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Memory.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Numerics.Vectors.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.AssemblyReference.cache
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.csproj.CoreCompileInputs.cache
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceB.BC3C65CA.Up2Date
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.dll
+E:\KendaProgram\BB\BBKV2\Service and APK  bb API mới\ServiceBBAPI\ServiceBBAPI\obj\Debug\ServiceBBAPI.pdb

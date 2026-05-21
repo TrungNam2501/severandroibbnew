@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|e:\\kendaprogram\\bb\\bbkv2\\service and apk  bb api m\u1EDBi\\servicebbapi\\servicebbapi\\servicebbintem.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\servicebbintem.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\sqlcnn\\sqlcnn8may.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\sqlcnn\\sqlcnn8may.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\models\\get_excel_inlaibb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\models\\get_excel_inlaibb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\printexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\printexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\models\\get_excel_bb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\models\\get_excel_bb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\servicebbapi\\sqlcnn\\sql10_33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE35B02-2CD6-40D1-AC62-D86FD104DC75}|ServiceBBAPI\\ServiceBBAPI.csproj|solutionrelative:servicebbapi\\sqlcnn\\sql10_33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1431,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceBBintem.asmx.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "RelativeToolTip": "ServiceBBAPI\\ServiceBBintem.asmx.cs",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAkwJUCAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T05:44:54.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLCNN8MAY.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQLCNN8MAY.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\SQLCNN\\SQLCNN8MAY.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQLCNN8MAY.cs",
+              "RelativeToolTip": "ServiceBBAPI\\SQLCNN\\SQLCNN8MAY.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:43:36.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQL10_33.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "RelativeToolTip": "ServiceBBAPI\\SQLCNN\\SQL10_33.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T01:03:07.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Get_Excel_InlaiBB.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "RelativeToolTip": "ServiceBBAPI\\Models\\Get_Excel_InlaiBB.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAAAGYBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T01:03:07.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Get_Excel_BB.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "RelativeToolTip": "ServiceBBAPI\\Models\\Get_Excel_BB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T01:03:07.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrintExcel.cs",
+              "DocumentMoniker": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\PrintExcel.cs",
+              "RelativeDocumentMoniker": "ServiceBBAPI\\PrintExcel.cs",
+              "ToolTip": "E:\\KendaProgram\\BB\\BBKV2\\Service and APK  bb API m\u1EDBi\\ServiceBBAPI\\ServiceBBAPI\\PrintExcel.cs",
+              "RelativeToolTip": "ServiceBBAPI\\PrintExcel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T01:03:07.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
