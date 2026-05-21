@@ -17,8 +17,13 @@ public sealed class ProductionController(IBbkService service) : ControllerBase
     [HttpGet("mes")]
     public async Task<ActionResult<ApiResult<IReadOnlyList<MesResponse>>>> GetMes([FromQuery] string machineNo, CancellationToken cancellationToken)
     {
-        var result = await service.GetMesListAsync(machineNo, cancellationToken);
-        return result.Success ? Ok(result) : BadRequest(result);
+        return await service.GetMesListAsync(machineNo, cancellationToken);
+    }
+
+    [HttpGet("mes/reprint")]
+    public async Task<ActionResult<ApiResult<IReadOnlyList<MesResponse>>>> GetMesForReprint([FromQuery] string machineNo, CancellationToken cancellationToken)
+    {
+        return await service.GetMesListForReprintAsync(machineNo, cancellationToken);
     }
 
     [HttpGet("printers")]
@@ -36,14 +41,18 @@ public sealed class ProductionController(IBbkService service) : ControllerBase
     [HttpPost("labels")]
     public async Task<ActionResult<ApiResult<PrintLabelResponse>>> PrintLabel(PrintLabelRequest request, CancellationToken cancellationToken)
     {
-        var result = await service.PrintLabelAsync(request, cancellationToken);
-        return result.Success ? Ok(result) : BadRequest(result);
+        return await service.PrintLabelAsync(request, cancellationToken);
+    }
+
+    [HttpPost("labels/compensate")]
+    public async Task<ActionResult<ApiResult<PrintLabelResponse>>> CompensatePrintLabel(CompensatePrintRequest request, CancellationToken cancellationToken)
+    {
+        return await service.CompensatePrintLabelAsync(request, cancellationToken);
     }
 
     [HttpPost("labels/reprint")]
     public async Task<ActionResult<ApiResult<object>>> ReprintLabel(ReprintLabelRequest request, CancellationToken cancellationToken)
     {
-        var result = await service.ReprintLabelAsync(request, cancellationToken);
-        return result.Success ? Ok(result) : BadRequest(result);
+        return await service.ReprintLabelAsync(request, cancellationToken);
     }
 }
