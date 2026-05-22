@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:BBK.Mobile"
     Title="BBK Label System"
     Shell.NavBarIsVisible="True"
-    Shell.BackgroundColor="{StaticResource SurfaceLight}"
+    Shell.BackgroundColor="{StaticResource White}"
     Shell.ForegroundColor="{StaticResource Primary}"
     Shell.TitleColor="{StaticResource TextPrimary}">
 

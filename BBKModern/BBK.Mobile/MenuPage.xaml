@@ -7,74 +7,57 @@
 
     <Grid RowDefinitions="Auto,*,Auto" Padding="0">
 
-        <!-- User Info Header -->
-        <Border Grid.Row="0"
-                StrokeShape="RoundRectangle 0,0,14,14"
-                Stroke="Transparent"
-                BackgroundColor="{StaticResource SurfaceLight}"
-                Padding="20,16">
-            <HorizontalStackLayout Spacing="12">
-                <Border StrokeShape="RoundRectangle 18"
-                        Stroke="{StaticResource Primary}"
-                        StrokeThickness="2"
-                        BackgroundColor="{StaticResource InputBackground}"
-                        HeightRequest="40"
-                        WidthRequest="40">
-                    <Label Text="&#x1F464;"
-                           FontSize="18"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Border>
-                <VerticalStackLayout VerticalOptions="Center" Spacing="1">
-                    <Label x:Name="UserLabel"
-                           FontSize="15"
-                           FontAttributes="Bold"
-                           TextColor="{StaticResource TextPrimary}" />
-                    <Label x:Name="MachineLabel"
-                           FontSize="12"
-                           TextColor="{StaticResource TextMuted}" />
-                </VerticalStackLayout>
-            </HorizontalStackLayout>
-        </Border>
+        <!-- User Info -->
+        <VerticalStackLayout Grid.Row="0"
+                             Padding="24,20"
+                             Spacing="2">
+            <Label x:Name="UserLabel"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource TextPrimary}" />
+            <Label x:Name="MachineLabel"
+                   FontSize="13"
+                   TextColor="{StaticResource TextMuted}" />
+        </VerticalStackLayout>
 
         <!-- Menu Cards -->
         <VerticalStackLayout Grid.Row="1"
-                             Padding="16,20"
-                             Spacing="10"
+                             Padding="20,4"
+                             Spacing="14"
                              VerticalOptions="Start">
 
             <!-- Scan Card -->
-            <Border StrokeShape="RoundRectangle 10"
-                    Stroke="{StaticResource BorderDark}"
-                    StrokeThickness="1"
-                    BackgroundColor="{StaticResource CardBackground}"
-                    Padding="0">
+            <Border StrokeShape="RoundRectangle 20"
+                    Stroke="Transparent"
+                    BackgroundColor="{StaticResource White}"
+                    Padding="0"
+                    Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,3', Radius=16}}">
                 <Grid ColumnDefinitions="Auto,*,Auto"
-                      Padding="16,14"
-                      ColumnSpacing="14">
-                    <Border StrokeShape="RoundRectangle 10"
+                      Padding="20,20"
+                      ColumnSpacing="16">
+                    <Border StrokeShape="RoundRectangle 16"
                             Stroke="Transparent"
-                            BackgroundColor="#38BDF820"
-                            HeightRequest="42"
-                            WidthRequest="42">
+                            BackgroundColor="{StaticResource SurfaceElevated}"
+                            HeightRequest="52"
+                            WidthRequest="52">
                         <Label Text="&#x1F4CB;"
-                               FontSize="20"
+                               FontSize="24"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" />
                     </Border>
-                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="1">
+                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="2">
                         <Label Text="Quét In Tem"
-                               FontSize="15"
+                               FontSize="17"
                                FontAttributes="Bold"
                                TextColor="{StaticResource TextPrimary}" />
                         <Label Text="In tem mới cho mẻ keo"
-                               FontSize="12"
+                               FontSize="13"
                                TextColor="{StaticResource TextMuted}" />
                     </VerticalStackLayout>
                     <Label Grid.Column="2"
                            Text="›"
-                           FontSize="24"
-                           TextColor="{StaticResource Primary}"
+                           FontSize="28"
+                           TextColor="{StaticResource PrimaryLight}"
                            VerticalOptions="Center" />
                     <Grid.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnScanClicked" />
@@ -83,37 +66,37 @@
             </Border>
 
             <!-- Reprint Card -->
-            <Border StrokeShape="RoundRectangle 10"
-                    Stroke="{StaticResource BorderDark}"
-                    StrokeThickness="1"
-                    BackgroundColor="{StaticResource CardBackground}"
-                    Padding="0">
+            <Border StrokeShape="RoundRectangle 20"
+                    Stroke="Transparent"
+                    BackgroundColor="{StaticResource White}"
+                    Padding="0"
+                    Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,3', Radius=16}}">
                 <Grid ColumnDefinitions="Auto,*,Auto"
-                      Padding="16,14"
-                      ColumnSpacing="14">
-                    <Border StrokeShape="RoundRectangle 10"
+                      Padding="20,20"
+                      ColumnSpacing="16">
+                    <Border StrokeShape="RoundRectangle 16"
                             Stroke="Transparent"
-                            BackgroundColor="#10B98120"
-                            HeightRequest="42"
-                            WidthRequest="42">
+                            BackgroundColor="#ECFDF5"
+                            HeightRequest="52"
+                            WidthRequest="52">
                         <Label Text="&#x1F504;"
-                               FontSize="20"
+                               FontSize="24"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" />
                     </Border>
-                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="1">
+                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="2">
                         <Label Text="In Lại Tem"
-                               FontSize="15"
+                               FontSize="17"
                                FontAttributes="Bold"
                                TextColor="{StaticResource TextPrimary}" />
                         <Label Text="In lại tem đã in trước đó"
-                               FontSize="12"
+                               FontSize="13"
                                TextColor="{StaticResource TextMuted}" />
                     </VerticalStackLayout>
                     <Label Grid.Column="2"
                            Text="›"
-                           FontSize="24"
-                           TextColor="{StaticResource Secondary}"
+                           FontSize="28"
+                           TextColor="{StaticResource Success}"
                            VerticalOptions="Center" />
                     <Grid.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnReprintClicked" />
@@ -125,15 +108,13 @@
 
         <!-- Logout -->
         <VerticalStackLayout Grid.Row="2"
-                             Padding="16,0,16,20">
+                             Padding="20,0,20,24">
             <Button Text="Đăng xuất"
-                    FontSize="13"
+                    FontSize="14"
                     BackgroundColor="Transparent"
                     TextColor="{StaticResource Danger}"
-                    BorderColor="{StaticResource BorderDark}"
-                    BorderWidth="1"
-                    CornerRadius="10"
-                    HeightRequest="40"
+                    CornerRadius="16"
+                    HeightRequest="48"
                     Clicked="OnLogoutClicked" />
         </VerticalStackLayout>
 
