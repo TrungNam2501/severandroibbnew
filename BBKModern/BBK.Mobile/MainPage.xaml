@@ -63,19 +63,13 @@
                        FontSize="14"
                        TextColor="{StaticResource TextSecondary}"
                        FontAttributes="Bold" />
-                <Border StrokeShape="RoundRectangle 16"
-                        Stroke="Transparent"
-                        BackgroundColor="{StaticResource White}"
-                        Padding="6,0"
-                        HeightRequest="56"
-                        Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,2', Radius=12}}">
-                    <Picker x:Name="MachinePicker"
-                            Title="Chọn máy sản xuất"
-                            ItemDisplayBinding="{Binding Name}"
-                            FontSize="16"
-                            TextColor="{StaticResource TextPrimary}"
-                            TitleColor="{StaticResource TextMuted}" />
-                </Border>
+                <Picker x:Name="MachinePicker"
+                        Title="Chọn máy sản xuất"
+                        ItemDisplayBinding="{Binding Name}"
+                        FontSize="16"
+                        TextColor="{StaticResource TextPrimary}"
+                        TitleColor="{StaticResource TextMuted}"
+                        BackgroundColor="{StaticResource White}" />
             </VerticalStackLayout>
 
             <!-- Message -->

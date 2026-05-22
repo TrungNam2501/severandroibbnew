@@ -19,18 +19,13 @@
                                FontSize="13"
                                TextColor="{StaticResource TextSecondary}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 14"
-                                Stroke="Transparent"
+                        <Picker x:Name="MesPicker"
+                                Title="Chọn MES"
+                                FontSize="15"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextMuted}"
                                 BackgroundColor="{StaticResource InputBackground}"
-                                Padding="6,0"
-                                HeightRequest="48">
-                            <Picker x:Name="MesPicker"
-                                    Title="Chọn MES"
-                                    FontSize="15"
-                                    TextColor="{StaticResource TextPrimary}"
-                                    TitleColor="{StaticResource TextMuted}"
-                                    SelectedIndexChanged="OnMesSelected" />
-                        </Border>
+                                SelectedIndexChanged="OnMesSelected" />
                     </VerticalStackLayout>
 
                     <VerticalStackLayout Spacing="6">
@@ -67,17 +62,12 @@
                                FontSize="13"
                                TextColor="{StaticResource TextSecondary}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 14"
-                                Stroke="Transparent"
-                                BackgroundColor="{StaticResource InputBackground}"
-                                Padding="6,0"
-                                HeightRequest="48">
-                            <Picker x:Name="BarcodePicker"
-                                    Title="Chọn mã tem"
-                                    FontSize="15"
-                                    TextColor="{StaticResource TextPrimary}"
-                                    TitleColor="{StaticResource TextMuted}" />
-                        </Border>
+                        <Picker x:Name="BarcodePicker"
+                                Title="Chọn mã tem"
+                                FontSize="15"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextMuted}"
+                                BackgroundColor="{StaticResource InputBackground}" />
                     </VerticalStackLayout>
 
                     <VerticalStackLayout Spacing="6">
@@ -85,18 +75,13 @@
                                FontSize="13"
                                TextColor="{StaticResource TextSecondary}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 14"
-                                Stroke="Transparent"
-                                BackgroundColor="{StaticResource InputBackground}"
-                                Padding="6,0"
-                                HeightRequest="48">
-                            <Picker x:Name="PrinterPicker"
-                                    Title="Chọn máy in"
-                                    ItemDisplayBinding="{Binding Name}"
-                                    FontSize="15"
-                                    TextColor="{StaticResource TextPrimary}"
-                                    TitleColor="{StaticResource TextMuted}" />
-                        </Border>
+                        <Picker x:Name="PrinterPicker"
+                                Title="Chọn máy in"
+                                ItemDisplayBinding="{Binding Name}"
+                                FontSize="15"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextMuted}"
+                                BackgroundColor="{StaticResource InputBackground}" />
                     </VerticalStackLayout>
                 </VerticalStackLayout>
             </Border>
