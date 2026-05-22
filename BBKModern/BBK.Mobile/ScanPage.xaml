@@ -2,79 +2,187 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BBK.Mobile.ScanPage"
-             Title="Quét Tem">
+             Title="Quét In Tem"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackground}, Dark={StaticResource PageBackgroundDark}}">
     <ScrollView>
-        <VerticalStackLayout Padding="24" Spacing="14">
-            <Label Text="Chọn Mã MES"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Picker x:Name="MesPicker"
-                    Title="Chọn MES"
-                    SelectedIndexChanged="OnMesSelected" />
-            <Label Text="Mã KEO"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <HorizontalStackLayout Spacing="8">
-                <Entry x:Name="RecipeEntry"
-                       Placeholder="Mã keo"
-                       IsReadOnly="True"
-                       HorizontalOptions="FillAndExpand" />
-                <CheckBox x:Name="OemCheckBox" />
-                <Label Text="OEM"
-                       FontSize="20"
-                       VerticalOptions="Center" />
-            </HorizontalStackLayout>
-            <Label Text="Mã PALET"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <HorizontalStackLayout Spacing="8">
-                <Entry x:Name="PalletEntry"
-                       Placeholder="Pallet"
-                       TextChanged="OnPalletTextChanged"
-                       HorizontalOptions="FillAndExpand" />
-                <RadioButton x:Name="SanXuatRadio"
-                             Content="SXuất"
-                             IsVisible="False"
-                             CheckedChanged="OnSanXuatCheckedChanged" />
-            </HorizontalStackLayout>
-            <Label Text="Nhập Trọng Lượng"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <HorizontalStackLayout Spacing="8">
-                <Entry x:Name="WeightEntry"
-                       Placeholder="Trọng lượng"
-                       Keyboard="Numeric"
-                       HorizontalOptions="FillAndExpand" />
-                <RadioButton x:Name="CanDaoRadio"
-                             Content="CĐảo"
-                             IsVisible="False"
-                             CheckedChanged="OnCanDaoCheckedChanged" />
-            </HorizontalStackLayout>
-            <Label Text="Chọn máy in"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Picker x:Name="PrinterPicker"
-                    Title="Chọn máy in"
-                    ItemDisplayBinding="{Binding Name}" />
-            <HorizontalStackLayout Spacing="12" HorizontalOptions="Center">
+        <VerticalStackLayout Padding="20,16" Spacing="12">
+
+            <!-- MES Section -->
+            <Border StrokeShape="RoundRectangle 14"
+                    Stroke="Transparent"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Padding="18,16">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Mã MES"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,0"
+                            HeightRequest="48">
+                        <Picker x:Name="MesPicker"
+                                Title="Chọn MES"
+                                FontSize="15"
+                                SelectedIndexChanged="OnMesSelected" />
+                    </Border>
+
+                    <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Mã Keo"
+                                   FontSize="13"
+                                   TextColor="{StaticResource Gray400}"
+                                   FontAttributes="Bold" />
+                            <Border StrokeShape="RoundRectangle 10"
+                                    Stroke="{StaticResource Gray200}"
+                                    BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark={StaticResource InputBackgroundDark}}"
+                                    Padding="12,4"
+                                    HeightRequest="44">
+                                <Entry x:Name="RecipeEntry"
+                                       Placeholder="Tự động"
+                                       IsReadOnly="True"
+                                       FontSize="15" />
+                            </Border>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Grid.Column="1" VerticalOptions="End" Spacing="4">
+                            <HorizontalStackLayout Spacing="4">
+                                <CheckBox x:Name="OemCheckBox"
+                                          MinimumWidthRequest="36"
+                                          MinimumHeightRequest="36" />
+                                <Label Text="OEM"
+                                       FontSize="14"
+                                       FontAttributes="Bold"
+                                       TextColor="{StaticResource Gray500}"
+                                       VerticalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Pallet + Weight Section -->
+            <Border StrokeShape="RoundRectangle 14"
+                    Stroke="Transparent"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Padding="18,16">
+                <VerticalStackLayout Spacing="12">
+                    <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Mã Pallet"
+                                   FontSize="13"
+                                   TextColor="{StaticResource Gray400}"
+                                   FontAttributes="Bold" />
+                            <Border StrokeShape="RoundRectangle 10"
+                                    Stroke="{StaticResource Gray200}"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                                    Padding="12,4"
+                                    HeightRequest="44">
+                                <Entry x:Name="PalletEntry"
+                                       Placeholder="Quét mã pallet"
+                                       FontSize="15"
+                                       TextChanged="OnPalletTextChanged" />
+                            </Border>
+                        </VerticalStackLayout>
+                        <RadioButton x:Name="SanXuatRadio"
+                                     Grid.Column="1"
+                                     Content="SXuất"
+                                     IsVisible="False"
+                                     VerticalOptions="End"
+                                     CheckedChanged="OnSanXuatCheckedChanged" />
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Trọng Lượng (kg)"
+                                   FontSize="13"
+                                   TextColor="{StaticResource Gray400}"
+                                   FontAttributes="Bold" />
+                            <Border StrokeShape="RoundRectangle 10"
+                                    Stroke="{StaticResource Gray200}"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                                    Padding="12,4"
+                                    HeightRequest="44">
+                                <Entry x:Name="WeightEntry"
+                                       Placeholder="Nhập trọng lượng"
+                                       Keyboard="Numeric"
+                                       FontSize="15" />
+                            </Border>
+                        </VerticalStackLayout>
+                        <RadioButton x:Name="CanDaoRadio"
+                                     Grid.Column="1"
+                                     Content="CĐảo"
+                                     IsVisible="False"
+                                     VerticalOptions="End"
+                                     CheckedChanged="OnCanDaoCheckedChanged" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Printer Section -->
+            <Border StrokeShape="RoundRectangle 14"
+                    Stroke="Transparent"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Padding="18,16">
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Máy In"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,0"
+                            HeightRequest="48">
+                        <Picker x:Name="PrinterPicker"
+                                Title="Chọn máy in"
+                                ItemDisplayBinding="{Binding Name}"
+                                FontSize="15" />
+                    </Border>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Action Buttons -->
+            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="10" Padding="0,4">
                 <Button Text="Làm mới"
                         FontSize="14"
-                        FontAttributes="Bold"
+                        BackgroundColor="Transparent"
+                        TextColor="{StaticResource Gray500}"
+                        BorderColor="{StaticResource Gray200}"
+                        BorderWidth="1"
+                        CornerRadius="12"
+                        HeightRequest="46"
                         Clicked="OnResetClicked" />
-                <Button Text="In Tem"
+                <Button Grid.Column="1"
+                        Text="In Tem"
                         FontSize="14"
                         FontAttributes="Bold"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="46"
                         Clicked="OnPrintClicked" />
-                <Button Text="Kết thúc"
+                <Button Grid.Column="2"
+                        Text="Kết thúc"
                         FontSize="14"
-                        FontAttributes="Bold"
+                        BackgroundColor="{StaticResource Secondary}"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="46"
                         Clicked="OnFinishClicked" />
-            </HorizontalStackLayout>
+            </Grid>
+
+            <!-- Loading + Message -->
             <ActivityIndicator x:Name="LoadingIndicator"
                                IsVisible="False"
-                               IsRunning="False" />
+                               IsRunning="False"
+                               Color="{StaticResource Primary}"
+                               HeightRequest="30" />
             <Label x:Name="MessageLabel"
-                   TextColor="Red" />
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -2,45 +2,119 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BBK.Mobile.ReprintPage"
-             Title="In Lại Tem">
+             Title="In Lại Tem"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackground}, Dark={StaticResource PageBackgroundDark}}">
     <ScrollView>
-        <VerticalStackLayout Padding="24" Spacing="14">
-            <Label Text="Chọn Mã MES"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Picker x:Name="MesPicker"
-                    Title="Chọn MES"
-                    SelectedIndexChanged="OnMesSelected" />
-            <Label Text="Mã KEO"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Entry x:Name="RecipeEntry"
-                   Placeholder="Mã keo"
-                   IsReadOnly="True" />
-            <Label Text="Mã Tem Và Trọng Lượng"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Picker x:Name="BarcodePicker"
-                    Title="Chọn mã tem" />
-            <Label Text="Chọn Máy In"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Picker x:Name="PrinterPicker"
-                    Title="Chọn máy in"
-                    ItemDisplayBinding="{Binding Name}" />
-            <Button Text="In lại tem"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    Clicked="OnReprintClicked" />
-            <Button Text="Quay lại"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    Clicked="OnBackClicked" />
+        <VerticalStackLayout Padding="20,16" Spacing="12">
+
+            <!-- MES + Recipe Section -->
+            <Border StrokeShape="RoundRectangle 14"
+                    Stroke="Transparent"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Padding="18,16">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Mã MES"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,0"
+                            HeightRequest="48">
+                        <Picker x:Name="MesPicker"
+                                Title="Chọn MES"
+                                FontSize="15"
+                                SelectedIndexChanged="OnMesSelected" />
+                    </Border>
+
+                    <Label Text="Mã Keo"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,4"
+                            HeightRequest="44">
+                        <Entry x:Name="RecipeEntry"
+                               Placeholder="Tự động khi chọn MES"
+                               IsReadOnly="True"
+                               FontSize="15" />
+                    </Border>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Barcode + Printer Section -->
+            <Border StrokeShape="RoundRectangle 14"
+                    Stroke="Transparent"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Padding="18,16">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Mã Tem &amp; Trọng Lượng"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,0"
+                            HeightRequest="48">
+                        <Picker x:Name="BarcodePicker"
+                                Title="Chọn mã tem"
+                                FontSize="15" />
+                    </Border>
+
+                    <Label Text="Máy In"
+                           FontSize="13"
+                           TextColor="{StaticResource Gray400}"
+                           FontAttributes="Bold" />
+                    <Border StrokeShape="RoundRectangle 10"
+                            Stroke="{StaticResource Gray200}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            Padding="12,0"
+                            HeightRequest="48">
+                        <Picker x:Name="PrinterPicker"
+                                Title="Chọn máy in"
+                                ItemDisplayBinding="{Binding Name}"
+                                FontSize="15" />
+                    </Border>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Action Buttons -->
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="10" Padding="0,4">
+                <Button Text="In Lại Tem"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnReprintClicked" />
+                <Button Grid.Column="1"
+                        Text="Quay lại"
+                        FontSize="15"
+                        BackgroundColor="Transparent"
+                        TextColor="{StaticResource Gray500}"
+                        BorderColor="{StaticResource Gray200}"
+                        BorderWidth="1"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnBackClicked" />
+            </Grid>
+
+            <!-- Loading + Message -->
             <ActivityIndicator x:Name="LoadingIndicator"
                                IsVisible="False"
-                               IsRunning="False" />
+                               IsRunning="False"
+                               Color="{StaticResource Primary}"
+                               HeightRequest="30" />
             <Label x:Name="MessageLabel"
-                   TextColor="Red" />
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
