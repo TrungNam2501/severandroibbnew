@@ -14,7 +14,6 @@
                     Padding="20,18"
                     Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,2', Radius=12}}">
                 <VerticalStackLayout Spacing="14">
-                    <!-- MES Picker -->
                     <VerticalStackLayout Spacing="6">
                         <Label Text="Mã MES"
                                FontSize="13"
@@ -29,26 +28,20 @@
                                 SelectedIndexChanged="OnMesSelected" />
                     </VerticalStackLayout>
 
-                    <!-- Recipe + OEM -->
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
                         <VerticalStackLayout Spacing="6">
                             <Label Text="Mã Keo"
                                    FontSize="13"
                                    TextColor="{StaticResource TextSecondary}"
                                    FontAttributes="Bold" />
-                            <Border StrokeShape="RoundRectangle 14"
-                                    Stroke="Transparent"
-                                    BackgroundColor="{StaticResource SurfaceElevated}"
-                                    Padding="14,0"
-                                    HeightRequest="48">
-                                <Entry x:Name="RecipeEntry"
-                                       Placeholder="Tự động"
-                                       PlaceholderColor="{StaticResource TextMuted}"
-                                       TextColor="{StaticResource Primary}"
-                                       IsReadOnly="True"
-                                       FontSize="15"
-                                       FontAttributes="Bold" />
-                            </Border>
+                            <Entry x:Name="RecipeEntry"
+                                   Placeholder="Tự động"
+                                   PlaceholderColor="{StaticResource TextMuted}"
+                                   TextColor="{StaticResource Primary}"
+                                   IsReadOnly="True"
+                                   FontSize="15"
+                                   FontAttributes="Bold"
+                                   BackgroundColor="{StaticResource SurfaceElevated}" />
                         </VerticalStackLayout>
                         <VerticalStackLayout Grid.Column="1" VerticalOptions="End">
                             <HorizontalStackLayout Spacing="4">
@@ -74,25 +67,19 @@
                     Padding="20,18"
                     Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,2', Radius=12}}">
                 <VerticalStackLayout Spacing="14">
-                    <!-- Pallet -->
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
                         <VerticalStackLayout Spacing="6">
                             <Label Text="Mã Pallet"
                                    FontSize="13"
                                    TextColor="{StaticResource TextSecondary}"
                                    FontAttributes="Bold" />
-                            <Border StrokeShape="RoundRectangle 14"
-                                    Stroke="Transparent"
-                                    BackgroundColor="{StaticResource InputBackground}"
-                                    Padding="14,0"
-                                    HeightRequest="48">
-                                <Entry x:Name="PalletEntry"
-                                       Placeholder="Quét mã pallet"
-                                       PlaceholderColor="{StaticResource TextMuted}"
-                                       TextColor="{StaticResource TextPrimary}"
-                                       FontSize="15"
-                                       TextChanged="OnPalletTextChanged" />
-                            </Border>
+                            <Entry x:Name="PalletEntry"
+                                   Placeholder="Quét mã pallet"
+                                   PlaceholderColor="{StaticResource TextMuted}"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   FontSize="15"
+                                   BackgroundColor="{StaticResource InputBackground}"
+                                   TextChanged="OnPalletTextChanged" />
                         </VerticalStackLayout>
                         <RadioButton x:Name="SanXuatRadio"
                                      Grid.Column="1"
@@ -103,25 +90,19 @@
                                      CheckedChanged="OnSanXuatCheckedChanged" />
                     </Grid>
 
-                    <!-- Weight -->
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
                         <VerticalStackLayout Spacing="6">
                             <Label Text="Trọng lượng (kg)"
                                    FontSize="13"
                                    TextColor="{StaticResource TextSecondary}"
                                    FontAttributes="Bold" />
-                            <Border StrokeShape="RoundRectangle 14"
-                                    Stroke="Transparent"
-                                    BackgroundColor="{StaticResource InputBackground}"
-                                    Padding="14,0"
-                                    HeightRequest="48">
-                                <Entry x:Name="WeightEntry"
-                                       Placeholder="Nhập trọng lượng"
-                                       PlaceholderColor="{StaticResource TextMuted}"
-                                       TextColor="{StaticResource TextPrimary}"
-                                       Keyboard="Numeric"
-                                       FontSize="15" />
-                            </Border>
+                            <Entry x:Name="WeightEntry"
+                                   Placeholder="Nhập trọng lượng"
+                                   PlaceholderColor="{StaticResource TextMuted}"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   Keyboard="Numeric"
+                                   FontSize="15"
+                                   BackgroundColor="{StaticResource InputBackground}" />
                         </VerticalStackLayout>
                         <RadioButton x:Name="CanDaoRadio"
                                      Grid.Column="1"

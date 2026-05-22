@@ -33,19 +33,14 @@
                                FontSize="13"
                                TextColor="{StaticResource TextSecondary}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 14"
-                                Stroke="Transparent"
-                                BackgroundColor="{StaticResource SurfaceElevated}"
-                                Padding="14,0"
-                                HeightRequest="48">
-                            <Entry x:Name="RecipeEntry"
-                                   Placeholder="Tự động khi chọn MES"
-                                   PlaceholderColor="{StaticResource TextMuted}"
-                                   TextColor="{StaticResource Primary}"
-                                   IsReadOnly="True"
-                                   FontSize="15"
-                                   FontAttributes="Bold" />
-                        </Border>
+                        <Entry x:Name="RecipeEntry"
+                               Placeholder="Tự động khi chọn MES"
+                               PlaceholderColor="{StaticResource TextMuted}"
+                               TextColor="{StaticResource Primary}"
+                               IsReadOnly="True"
+                               FontSize="15"
+                               FontAttributes="Bold"
+                               BackgroundColor="{StaticResource SurfaceElevated}" />
                     </VerticalStackLayout>
                 </VerticalStackLayout>
             </Border>

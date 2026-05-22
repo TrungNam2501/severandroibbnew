@@ -8,21 +8,13 @@
     <ScrollView>
         <VerticalStackLayout Padding="32,60,32,32" Spacing="0">
 
-            <!-- Logo / Brand -->
-            <VerticalStackLayout Spacing="6" Margin="0,0,0,40">
-                <Border StrokeShape="RoundRectangle 20"
-                        Stroke="Transparent"
-                        BackgroundColor="{StaticResource Primary}"
-                        HeightRequest="64"
-                        WidthRequest="64"
-                        HorizontalOptions="Center">
-                    <Label Text="B"
-                           FontSize="30"
-                           FontAttributes="Bold"
-                           TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center" />
-                </Border>
+            <!-- Logo KENDA -->
+            <VerticalStackLayout Spacing="10" Margin="0,0,0,40">
+                <Image Source="kenda_icon.png"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       Aspect="AspectFit"
+                       HorizontalOptions="Center" />
                 <Label Text="BBK Label"
                        FontSize="28"
                        FontAttributes="Bold"
@@ -40,21 +32,15 @@
                        FontSize="14"
                        TextColor="{StaticResource TextSecondary}"
                        FontAttributes="Bold" />
-                <Border StrokeShape="RoundRectangle 16"
-                        Stroke="Transparent"
-                        BackgroundColor="{StaticResource White}"
-                        Padding="18,0"
-                        HeightRequest="56"
-                        Shadow="{OnPlatform Android={Shadow Brush=#10000000, Offset='0,2', Radius=12}}">
-                    <Entry x:Name="EmployeeEntry"
-                           Placeholder="Nhập 6 chữ số..."
-                           PlaceholderColor="{StaticResource TextMuted}"
-                           TextColor="{StaticResource TextPrimary}"
-                           Keyboard="Numeric"
-                           MaxLength="6"
-                           FontSize="17"
-                           TextChanged="OnEmployeeTextChanged" />
-                </Border>
+                <Entry x:Name="EmployeeEntry"
+                       Placeholder="Nhập 6 chữ số..."
+                       PlaceholderColor="{StaticResource TextMuted}"
+                       TextColor="{StaticResource TextPrimary}"
+                       Keyboard="Numeric"
+                       MaxLength="6"
+                       FontSize="17"
+                       BackgroundColor="{StaticResource White}"
+                       TextChanged="OnEmployeeTextChanged" />
             </VerticalStackLayout>
 
             <!-- Machine Picker -->
