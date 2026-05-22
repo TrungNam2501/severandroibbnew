@@ -65,28 +65,25 @@ public partial class ScanPage : ContentPage
         RecipeEntry.Text = selected.RecipeCode.Trim();
 
         var recipe = RecipeEntry.Text.Trim();
-        if (recipe.Length == 7 || recipe.Length == 8)
+        var showRework = false;
+
+        if (recipe.Length == 5)
+        {
+            showRework = true;
+        }
+        else if (recipe.Length == 7 || recipe.Length == 8)
         {
             var suffixChar = recipe.Length > 6 ? recipe.Substring(6, 1) : "";
             var lastTwo = recipe.Length >= 2 ? recipe.Substring(recipe.Length - 2, 2) : "";
-
-            if (suffixChar == "9" || lastTwo == "RM")
-            {
-                SanXuatRadio.IsVisible = true;
-                CanDaoRadio.IsVisible = true;
-                SanXuatRadio.IsChecked = false;
-                CanDaoRadio.IsChecked = false;
-            }
-            else
-            {
-                SanXuatRadio.IsVisible = false;
-                CanDaoRadio.IsVisible = false;
-            }
+            showRework = suffixChar == "9" || lastTwo == "RM";
         }
-        else
+
+        SanXuatRadio.IsVisible = showRework;
+        CanDaoRadio.IsVisible = showRework;
+        if (showRework)
         {
-            SanXuatRadio.IsVisible = false;
-            CanDaoRadio.IsVisible = false;
+            SanXuatRadio.IsChecked = false;
+            CanDaoRadio.IsChecked = false;
         }
 
         PalletEntry.Focus();
