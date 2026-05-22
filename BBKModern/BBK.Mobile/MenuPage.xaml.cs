@@ -12,9 +12,16 @@ public partial class MenuPage : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        UserLabel.Text = Session.Current is null
-            ? "Chưa đăng nhập"
-            : $"{Session.Current.Name} - Máy {Session.Current.MachineNo}";
+        if (Session.Current is null)
+        {
+            UserLabel.Text = "Chưa đăng nhập";
+            MachineLabel.Text = "";
+        }
+        else
+        {
+            UserLabel.Text = $"{Session.Current.Name} - {Session.Current.DepartmentNo}";
+            MachineLabel.Text = $"Máy {Session.Current.MachineNo}";
+        }
     }
 
     private async void OnScanClicked(object? sender, EventArgs e)
