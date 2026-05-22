@@ -3,41 +3,49 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <!-- Brand Colors - Industrial Blue Theme -->
-    <Color x:Key="Primary">#1565C0</Color>
-    <Color x:Key="PrimaryDark">#0D47A1</Color>
+    <!-- Dark Industrial Theme -->
+    <Color x:Key="Primary">#38BDF8</Color>
+    <Color x:Key="PrimaryDark">#0EA5E9</Color>
     <Color x:Key="PrimaryDarkText">#FFFFFF</Color>
-    <Color x:Key="PrimaryLight">#42A5F5</Color>
-    <Color x:Key="Secondary">#00897B</Color>
-    <Color x:Key="SecondaryDarkText">#B2DFDB</Color>
-    <Color x:Key="Tertiary">#FF6F00</Color>
-    <Color x:Key="Accent">#26A69A</Color>
-    <Color x:Key="Danger">#E53935</Color>
-    <Color x:Key="Success">#43A047</Color>
-    <Color x:Key="Warning">#FB8C00</Color>
+    <Color x:Key="PrimaryLight">#7DD3FC</Color>
+    <Color x:Key="Secondary">#10B981</Color>
+    <Color x:Key="SecondaryDarkText">#A7F3D0</Color>
+    <Color x:Key="Tertiary">#F59E0B</Color>
+    <Color x:Key="Accent">#38BDF8</Color>
+    <Color x:Key="Danger">#EF4444</Color>
+    <Color x:Key="Success">#22C55E</Color>
+    <Color x:Key="Warning">#F59E0B</Color>
 
     <Color x:Key="White">#FFFFFF</Color>
     <Color x:Key="Black">#000000</Color>
     <Color x:Key="Magenta">#D600AA</Color>
-    <Color x:Key="MidnightBlue">#0D1B2A</Color>
-    <Color x:Key="OffBlack">#1B2838</Color>
+    <Color x:Key="MidnightBlue">#0F172A</Color>
+    <Color x:Key="OffBlack">#020617</Color>
 
-    <!-- Surface Colors -->
-    <Color x:Key="PageBackground">#F0F4F8</Color>
-    <Color x:Key="CardBackground">#FFFFFF</Color>
-    <Color x:Key="CardBackgroundDark">#1E2A3A</Color>
-    <Color x:Key="PageBackgroundDark">#0F1923</Color>
-    <Color x:Key="InputBackground">#F5F7FA</Color>
-    <Color x:Key="InputBackgroundDark">#263242</Color>
+    <!-- Dark Surface Colors -->
+    <Color x:Key="PageBackground">#0F172A</Color>
+    <Color x:Key="CardBackground">#1E293B</Color>
+    <Color x:Key="CardBackgroundDark">#1E293B</Color>
+    <Color x:Key="PageBackgroundDark">#0F172A</Color>
+    <Color x:Key="InputBackground">#334155</Color>
+    <Color x:Key="InputBackgroundDark">#334155</Color>
+    <Color x:Key="SurfaceLight">#1E293B</Color>
+    <Color x:Key="SurfaceElevated">#283548</Color>
+    <Color x:Key="BorderDark">#475569</Color>
 
-    <Color x:Key="Gray100">#E8EDF2</Color>
-    <Color x:Key="Gray200">#CBD5E0</Color>
-    <Color x:Key="Gray300">#A0AEC0</Color>
-    <Color x:Key="Gray400">#718096</Color>
-    <Color x:Key="Gray500">#4A5568</Color>
-    <Color x:Key="Gray600">#2D3748</Color>
-    <Color x:Key="Gray900">#1A202C</Color>
-    <Color x:Key="Gray950">#0F1318</Color>
+    <Color x:Key="Gray100">#F1F5F9</Color>
+    <Color x:Key="Gray200">#E2E8F0</Color>
+    <Color x:Key="Gray300">#94A3B8</Color>
+    <Color x:Key="Gray400">#64748B</Color>
+    <Color x:Key="Gray500">#475569</Color>
+    <Color x:Key="Gray600">#334155</Color>
+    <Color x:Key="Gray900">#0F172A</Color>
+    <Color x:Key="Gray950">#020617</Color>
+
+    <!-- Text Colors -->
+    <Color x:Key="TextPrimary">#F1F5F9</Color>
+    <Color x:Key="TextSecondary">#94A3B8</Color>
+    <Color x:Key="TextMuted">#64748B</Color>
 
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
