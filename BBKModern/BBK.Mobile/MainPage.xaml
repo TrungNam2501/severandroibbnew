@@ -5,20 +5,20 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="{StaticResource Primary}">
 
-    <Grid RowDefinitions="Auto,*,Auto"
+    <Grid RowDefinitions="Auto,*"
           Padding="0">
 
         <!-- Header -->
         <VerticalStackLayout Grid.Row="0"
-                             Padding="24,48,24,24"
-                             Spacing="4">
+                             Padding="24,40,24,20"
+                             Spacing="2">
             <Label Text="BBK LABEL"
-                   FontSize="36"
+                   FontSize="32"
                    FontAttributes="Bold"
                    TextColor="White"
                    HorizontalOptions="Center" />
             <Label Text="Hệ thống in tem keo"
-                   FontSize="16"
+                   FontSize="14"
                    TextColor="#B3D4FC"
                    HorizontalOptions="Center" />
         </VerticalStackLayout>
@@ -31,44 +31,40 @@
                 Padding="0"
                 VerticalOptions="Fill">
             <ScrollView>
-                <VerticalStackLayout Padding="28,32" Spacing="20">
+                <VerticalStackLayout Padding="24,24" Spacing="14">
 
                     <!-- Employee Number -->
-                    <VerticalStackLayout Spacing="6">
+                    <VerticalStackLayout Spacing="4">
                         <Label Text="Mã số thẻ"
                                FontSize="13"
                                TextColor="{StaticResource Gray400}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 12"
+                        <Border StrokeShape="RoundRectangle 10"
                                 Stroke="{StaticResource Gray200}"
                                 BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
-                                Padding="16,4"
-                                HeightRequest="52">
+                                Padding="14,2"
+                                HeightRequest="44">
                             <Entry x:Name="EmployeeEntry"
                                    Placeholder="Nhập 6 chữ số..."
                                    Keyboard="Numeric"
                                    MaxLength="6"
-                                   FontSize="18"
+                                   FontSize="16"
                                    TextChanged="OnEmployeeTextChanged" />
                         </Border>
                     </VerticalStackLayout>
 
                     <!-- Machine Picker -->
-                    <VerticalStackLayout Spacing="6">
+                    <VerticalStackLayout Spacing="4">
                         <Label Text="Chọn máy"
                                FontSize="13"
                                TextColor="{StaticResource Gray400}"
                                FontAttributes="Bold" />
-                        <Border StrokeShape="RoundRectangle 12"
-                                Stroke="{StaticResource Gray200}"
+                        <Picker x:Name="MachinePicker"
+                                Title="Chọn máy sản xuất"
+                                ItemDisplayBinding="{Binding Name}"
+                                FontSize="15"
                                 BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
-                                Padding="12,0"
-                                HeightRequest="52">
-                            <Picker x:Name="MachinePicker"
-                                    Title="Chọn máy sản xuất"
-                                    ItemDisplayBinding="{Binding Name}"
-                                    FontSize="16" />
-                        </Border>
+                                TextColor="{StaticResource Gray900}" />
                     </VerticalStackLayout>
 
                     <!-- Message -->
@@ -82,27 +78,27 @@
                                        IsVisible="False"
                                        IsRunning="False"
                                        Color="{StaticResource Primary}"
-                                       HeightRequest="36" />
+                                       HeightRequest="30" />
 
                     <!-- Login Button -->
                     <Button Text="Đăng Nhập"
-                            FontSize="18"
+                            FontSize="17"
                             FontAttributes="Bold"
                             BackgroundColor="{StaticResource Primary}"
                             TextColor="White"
-                            CornerRadius="14"
-                            HeightRequest="54"
+                            CornerRadius="12"
+                            HeightRequest="48"
                             Clicked="OnLoginClicked" />
 
                     <!-- Exit Button -->
                     <Button Text="Thoát"
-                            FontSize="15"
+                            FontSize="14"
                             BackgroundColor="Transparent"
                             TextColor="{StaticResource Gray400}"
                             BorderColor="{StaticResource Gray200}"
                             BorderWidth="1"
-                            CornerRadius="14"
-                            HeightRequest="48"
+                            CornerRadius="12"
+                            HeightRequest="42"
                             Clicked="OnExitClicked" />
 
                 </VerticalStackLayout>
