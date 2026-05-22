@@ -3,53 +3,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BBK.Mobile.ScanPage"
              Title="Quét In Tem"
-             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackground}, Dark={StaticResource PageBackgroundDark}}">
+             BackgroundColor="{StaticResource PageBackground}">
     <ScrollView>
         <VerticalStackLayout Padding="16,10" Spacing="8">
 
             <!-- MES Section -->
             <Border StrokeShape="RoundRectangle 10"
-                    Stroke="Transparent"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Stroke="{StaticResource BorderDark}"
+                    StrokeThickness="1"
+                    BackgroundColor="{StaticResource CardBackground}"
                     Padding="14,10">
                 <VerticalStackLayout Spacing="6">
-                    <Label Text="Mã MES"
-                           FontSize="12"
-                           TextColor="{StaticResource Gray400}"
-                           FontAttributes="Bold" />
+                    <Label Text="MÃ MES"
+                           FontSize="11"
+                           TextColor="{StaticResource TextMuted}"
+                           FontAttributes="Bold"
+                           CharacterSpacing="1" />
                     <Picker x:Name="MesPicker"
                             Title="Chọn MES"
                             FontSize="15"
-                            TextColor="{StaticResource Gray900}"
-                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                            TextColor="{StaticResource TextPrimary}"
+                            TitleColor="{StaticResource TextMuted}"
+                            BackgroundColor="{StaticResource InputBackground}"
                             SelectedIndexChanged="OnMesSelected" />
 
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
                         <VerticalStackLayout Spacing="4">
-                            <Label Text="Mã Keo"
-                                   FontSize="12"
-                                   TextColor="{StaticResource Gray400}"
-                                   FontAttributes="Bold" />
+                            <Label Text="MÃ KEO"
+                                   FontSize="11"
+                                   TextColor="{StaticResource TextMuted}"
+                                   FontAttributes="Bold"
+                                   CharacterSpacing="1" />
                             <Border StrokeShape="RoundRectangle 8"
-                                    Stroke="{StaticResource Gray200}"
-                                    BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark={StaticResource InputBackgroundDark}}"
+                                    Stroke="{StaticResource BorderDark}"
+                                    BackgroundColor="{StaticResource SurfaceElevated}"
                                     Padding="10,2"
                                     HeightRequest="38">
                                 <Entry x:Name="RecipeEntry"
                                        Placeholder="Tự động"
+                                       PlaceholderColor="{StaticResource TextMuted}"
+                                       TextColor="{StaticResource Primary}"
                                        IsReadOnly="True"
-                                       FontSize="14" />
+                                       FontSize="14"
+                                       FontAttributes="Bold" />
                             </Border>
                         </VerticalStackLayout>
                         <VerticalStackLayout Grid.Column="1" VerticalOptions="End">
                             <HorizontalStackLayout Spacing="2">
                                 <CheckBox x:Name="OemCheckBox"
+                                          Color="{StaticResource Primary}"
                                           MinimumWidthRequest="32"
                                           MinimumHeightRequest="32" />
                                 <Label Text="OEM"
-                                       FontSize="13"
+                                       FontSize="12"
                                        FontAttributes="Bold"
-                                       TextColor="{StaticResource Gray500}"
+                                       TextColor="{StaticResource TextSecondary}"
                                        VerticalOptions="Center" />
                             </HorizontalStackLayout>
                         </VerticalStackLayout>
@@ -57,25 +65,29 @@
                 </VerticalStackLayout>
             </Border>
 
-            <!-- Pallet + Weight Section -->
+            <!-- Pallet + Weight -->
             <Border StrokeShape="RoundRectangle 10"
-                    Stroke="Transparent"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Stroke="{StaticResource BorderDark}"
+                    StrokeThickness="1"
+                    BackgroundColor="{StaticResource CardBackground}"
                     Padding="14,10">
                 <VerticalStackLayout Spacing="6">
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
                         <VerticalStackLayout Spacing="4">
-                            <Label Text="Mã Pallet"
-                                   FontSize="12"
-                                   TextColor="{StaticResource Gray400}"
-                                   FontAttributes="Bold" />
+                            <Label Text="MÃ PALLET"
+                                   FontSize="11"
+                                   TextColor="{StaticResource TextMuted}"
+                                   FontAttributes="Bold"
+                                   CharacterSpacing="1" />
                             <Border StrokeShape="RoundRectangle 8"
-                                    Stroke="{StaticResource Gray200}"
-                                    BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                                    Stroke="{StaticResource BorderDark}"
+                                    BackgroundColor="{StaticResource InputBackground}"
                                     Padding="10,2"
                                     HeightRequest="38">
                                 <Entry x:Name="PalletEntry"
                                        Placeholder="Quét mã pallet"
+                                       PlaceholderColor="{StaticResource TextMuted}"
+                                       TextColor="{StaticResource TextPrimary}"
                                        FontSize="14"
                                        TextChanged="OnPalletTextChanged" />
                             </Border>
@@ -83,6 +95,7 @@
                         <RadioButton x:Name="SanXuatRadio"
                                      Grid.Column="1"
                                      Content="SXuất"
+                                     TextColor="{StaticResource TextSecondary}"
                                      IsVisible="False"
                                      VerticalOptions="End"
                                      CheckedChanged="OnSanXuatCheckedChanged" />
@@ -90,17 +103,20 @@
 
                     <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
                         <VerticalStackLayout Spacing="4">
-                            <Label Text="Trọng Lượng (kg)"
-                                   FontSize="12"
-                                   TextColor="{StaticResource Gray400}"
-                                   FontAttributes="Bold" />
+                            <Label Text="TRỌNG LƯỢNG (KG)"
+                                   FontSize="11"
+                                   TextColor="{StaticResource TextMuted}"
+                                   FontAttributes="Bold"
+                                   CharacterSpacing="1" />
                             <Border StrokeShape="RoundRectangle 8"
-                                    Stroke="{StaticResource Gray200}"
-                                    BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}"
+                                    Stroke="{StaticResource BorderDark}"
+                                    BackgroundColor="{StaticResource InputBackground}"
                                     Padding="10,2"
                                     HeightRequest="38">
                                 <Entry x:Name="WeightEntry"
                                        Placeholder="Nhập trọng lượng"
+                                       PlaceholderColor="{StaticResource TextMuted}"
+                                       TextColor="{StaticResource TextPrimary}"
                                        Keyboard="Numeric"
                                        FontSize="14" />
                             </Border>
@@ -108,6 +124,7 @@
                         <RadioButton x:Name="CanDaoRadio"
                                      Grid.Column="1"
                                      Content="CĐảo"
+                                     TextColor="{StaticResource TextSecondary}"
                                      IsVisible="False"
                                      VerticalOptions="End"
                                      CheckedChanged="OnCanDaoCheckedChanged" />
@@ -115,22 +132,25 @@
                 </VerticalStackLayout>
             </Border>
 
-            <!-- Printer Section -->
+            <!-- Printer -->
             <Border StrokeShape="RoundRectangle 10"
-                    Stroke="Transparent"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}"
+                    Stroke="{StaticResource BorderDark}"
+                    StrokeThickness="1"
+                    BackgroundColor="{StaticResource CardBackground}"
                     Padding="14,10">
                 <VerticalStackLayout Spacing="4">
-                    <Label Text="Máy In"
-                           FontSize="12"
-                           TextColor="{StaticResource Gray400}"
-                           FontAttributes="Bold" />
+                    <Label Text="MÁY IN"
+                           FontSize="11"
+                           TextColor="{StaticResource TextMuted}"
+                           FontAttributes="Bold"
+                           CharacterSpacing="1" />
                     <Picker x:Name="PrinterPicker"
                             Title="Chọn máy in"
                             ItemDisplayBinding="{Binding Name}"
                             FontSize="15"
-                            TextColor="{StaticResource Gray900}"
-                            BackgroundColor="{AppThemeBinding Light={StaticResource InputBackground}, Dark={StaticResource InputBackgroundDark}}" />
+                            TextColor="{StaticResource TextPrimary}"
+                            TitleColor="{StaticResource TextMuted}"
+                            BackgroundColor="{StaticResource InputBackground}" />
                 </VerticalStackLayout>
             </Border>
 
@@ -139,8 +159,8 @@
                 <Button Text="Làm mới"
                         FontSize="13"
                         BackgroundColor="Transparent"
-                        TextColor="{StaticResource Gray500}"
-                        BorderColor="{StaticResource Gray200}"
+                        TextColor="{StaticResource TextSecondary}"
+                        BorderColor="{StaticResource BorderDark}"
                         BorderWidth="1"
                         CornerRadius="10"
                         HeightRequest="40"
@@ -150,7 +170,7 @@
                         FontSize="13"
                         FontAttributes="Bold"
                         BackgroundColor="{StaticResource Primary}"
-                        TextColor="White"
+                        TextColor="{StaticResource PageBackground}"
                         CornerRadius="10"
                         HeightRequest="40"
                         Clicked="OnPrintClicked" />
@@ -158,7 +178,7 @@
                         Text="Kết thúc"
                         FontSize="13"
                         BackgroundColor="{StaticResource Secondary}"
-                        TextColor="White"
+                        TextColor="{StaticResource PageBackground}"
                         CornerRadius="10"
                         HeightRequest="40"
                         Clicked="OnFinishClicked" />
@@ -172,6 +192,7 @@
                                HeightRequest="24" />
             <Label x:Name="MessageLabel"
                    FontSize="13"
+                   TextColor="{StaticResource Warning}"
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center" />
 

@@ -6,9 +6,9 @@
     xmlns:local="clr-namespace:BBK.Mobile"
     Title="BBK Label System"
     Shell.NavBarIsVisible="True"
-    Shell.BackgroundColor="{StaticResource Primary}"
-    Shell.ForegroundColor="{StaticResource White}"
-    Shell.TitleColor="{StaticResource White}">
+    Shell.BackgroundColor="{StaticResource SurfaceLight}"
+    Shell.ForegroundColor="{StaticResource Primary}"
+    Shell.TitleColor="{StaticResource TextPrimary}">
 
     <ShellContent
         Title="Đăng nhập"
